@@ -346,25 +346,3 @@ def main():
 if __name__ == "__main__":
     logging.debug("starting program...")
     main()
-
-
-"""
-
-def test1():
-    
-    line = ser.readline()
-    
-    line = line.split()
-    if len(line) > 7:
-        screen.blit(background, (0, 0))
-        pygame.draw.line(screen,(255,0,0),(0,WINY),(0,WINY-int(line[0])),thickness)
-        pygame.draw.line(screen,(0,255,0),(100,WINY),(100,WINY-int(line[1])),thickness)
-        pygame.draw.line(screen,(0,0,255),(200,WINY),(200,WINY-int(line[2])),thickness)
-        pygame.draw.line(screen,(255,255,0),(300,WINY),(300,WINY-int(line[3])),thickness)
-        pygame.draw.line(screen,(255,0,255),(400,WINY),(400,WINY-int(line[4])),thickness)
-        pygame.draw.line(screen,(0,255,0),(500,WINY),(500,WINY-int(line[5])),thickness)
-        pygame.draw.line(screen,(255,100,0),(600,WINY),(600,WINY-int(line[6])),thickness)
-        pygame.draw.line(screen,(255,0,100),(700,WINY),(700,WINY-int(line[7])),thickness)
-        pygame.display.flip()
-        print line
-"""
