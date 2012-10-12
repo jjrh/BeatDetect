@@ -23,6 +23,7 @@ Beat.py
 		'q', 'a' change the scale up and down
 		'w', 's' change the FFT axis.
 		mouse down will pause the graph, mouse up will unpause
-
+		'z' toggles fft off/on.
+	
 
 		
