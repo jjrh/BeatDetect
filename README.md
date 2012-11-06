@@ -25,5 +25,5 @@ Beat.py
 		mouse down will pause the graph, mouse up will unpause
 		'z' toggles fft off/on.
 	
-
+https://github.com/ianhalpern/Impulse/blob/master/Impulse.py looks interesting.
 		
